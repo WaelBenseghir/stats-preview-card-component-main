@@ -99,7 +99,6 @@ body {
     color: var(--clr-neutral100);
     font-size: var(--fs-3xl);
     margin-bottom: .6em;
-    max-width: 16ch;
 }
 
 .main__desc{
@@ -108,8 +107,6 @@ body {
     opacity: .75;
     line-height: 1.5;
     margin-bottom: 2em;
-    max-width: 27ch;
-    margin-inline: auto;
 }
 
 li span{
@@ -142,6 +139,7 @@ li p{
         margin-inline: 0;
         max-width: 37ch;
     }
+
 
     .main__text{
         text-align: left;
