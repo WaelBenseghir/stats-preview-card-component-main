@@ -15,7 +15,7 @@ img {
     display: block;
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -75,7 +75,7 @@ body {
     position: relative;
 }
 
-.main__img::before{
+.main__img::before {
     content: '';
     height: 100%;
     width: 100%;
@@ -101,7 +101,7 @@ body {
     margin-bottom: .6em;
 }
 
-.main__desc{
+.main__desc {
     font-size: var(--fs-base);
     color: var(--clr-neutral100);
     opacity: .75;
@@ -109,12 +109,13 @@ body {
     margin-bottom: 2em;
 }
 
-li span{
+li span {
     font-size: var(--fs-xl);
     font-weight: var(--fw-bold);
     color: var(--clr-neutral100);
 }
-li p{
+
+li p {
     color: var(--clr-neutral100);
     font-size: var(--fs-xs);
     text-transform: uppercase;
@@ -122,26 +123,23 @@ li p{
     opacity: .6;
 }
 
-@media (min-width:600px){
-    .main{
+@media (min-width:600px) {
+    .main {
         display: flex;
         flex-direction: row-reverse;
     }
 
-    .main__text, .main__img{
+    .main__text,
+    .main__img {
         flex: 1;
     }
-    ul{
+
+    ul {
         flex-direction: row;
         gap: 3rem;
     }
-    .main__desc{
-        margin-inline: 0;
-        max-width: 37ch;
-    }
 
-
-    .main__text{
+    .main__text {
         text-align: left;
         display: flex;
         flex-direction: column;
